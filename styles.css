@@ -1,0 +1,118 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #6f0202;
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.home {
+    background-image: url('home-background.jpg');
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.home h1 {
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin: 15px;
+}
+
+.column {
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 440px; 
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+}
+
+.column:nth-child(1) {
+    background-image: url('image1.jpg');
+}
+
+.column:nth-child(2) {
+    background-image: url('image2.jpg');
+}
+
+.picture {
+    margin-bottom: 20px;
+}
+
+.picture img {
+    width: 100%;
+    height: auto; 
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    padding: 8px;
+    background-color: #d26868;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 12px;
+    margin: 8px;
+    padding: 8px;
+}
+
+ol {
+    font-size: 12px;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+
+ol li {
+    text-align: left;
+    display: inline-block;
+    margin: 4px 6px;
+}
